@@ -27,25 +27,15 @@ body{
 
 }
 
-h1{
-  margin: 0%;
-  color: green;
-  font-size: 3em;
-  font-family: Franklin Gothic Medium;
-}
 
-p{
-  margin: 0%;
-  color: green;
 
-}
 
 /* ---- particles.js container ---- */
 
 #particles-js{
   width: 100%;
   height: 100%;
-  background-color: black;
+  background-color: blueviolet;
   background-image: url('');
   background-size: cover;
   background-position: 50% 50%;
@@ -56,12 +46,30 @@ p{
 
 
 /*--------------------intro page------------------*/
-.intro_page{
-  margin-top: 25%;
-  margin-left: 40%;
-  
+.intro_page h1{
+  color: white;
+  font-size: 4em;
+  font-family: Franklin Gothic Medium;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  max-width: 600px;
   position: absolute;
-   
+  padding: 25%;
+  
+}
+
+.intro_page p{
+  color: white;
+  font-size: 2em;
+  font-family: Franklin Gothic Medium;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  max-width: 600px;
+  position: absolute;
+  padding: 28%;
+  
 }
 
 
