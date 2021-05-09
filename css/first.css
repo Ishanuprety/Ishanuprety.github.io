@@ -46,7 +46,7 @@ body{
 
 
 /*--------------------intro page------------------*/
-.intro_page h1{
+.intro_page p{
   color: white;
   font-size: 4em;
   font-family: Franklin Gothic Medium;
@@ -55,11 +55,12 @@ body{
   margin: 0 auto;
   max-width: 600px;
   position: absolute;
-  padding: 25%;
+  bottom: 50%;
+  
   
 }
 
-.intro_page p{
+.para p{
   color: white;
   font-size: 2em;
   font-family: Franklin Gothic Medium;
@@ -68,8 +69,7 @@ body{
   margin: 0 auto;
   max-width: 600px;
   position: absolute;
-  padding: 28%;
-  
+  bottom: 45%;
 }
 
 
