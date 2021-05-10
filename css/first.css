@@ -39,8 +39,6 @@ body{
   background-image: url('');
   background-size: cover;
   background-position: 50% 50%;
-  position: absolute;
-
   background-repeat: no-repeat;
 }
 
@@ -72,17 +70,23 @@ body{
   bottom: 45%;
 }
 
+.aboutme{
+  margin: 0%;
+  background-color: palegreen;
+  height: 856px;
+}
 
-
-
+.secondpart{
+  margin: 0%;
+  
+}
 
 
 /* -----------------------my profile photo *-----------------------*/
 
 .myprofile{
-  
-  height: 20%;
-  width: 20%;
+  height: 856px;
+  width: 867px;
 
 }
 
