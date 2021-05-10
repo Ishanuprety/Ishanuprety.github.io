@@ -94,26 +94,29 @@ body{
 
 .whoiswala p{
   color: black;
-  font-size: 5em;
+  font-size: 6em;
   font-family: Franklin Gothic Medium;
-  float: inline-start;
+  float: left;
   margin-top: 20px;
   margin-bottom: auto;
-  padding-top: 1%;
+  padding-top: 3%;
+  padding-left: 7%;
 
 }
 
 .myinfo p{
+  color:green;
   background-color: antiquewhite;
   font-size: 1.4em;
   font-family: Franklin Gothic Medium;
+  
   float: left;
-  padding: 2%;
+  padding: 4%;
   
   margin:0 auto;
-  text-align: justify;
+  text-align: center;
 
-  width:40%
+  width: 40%;
   
   
 }
