@@ -35,7 +35,7 @@ body{
 #particles-js{
   width: 100%;
   height: 100%;
-  background-color: blueviolet;
+  background-color: darkcyan;
   background-image: url('');
   background-size: cover;
   background-position: 50% 50%;
@@ -45,7 +45,7 @@ body{
 
 /*--------------------intro page------------------*/
 .intro_page p{
-  color: white;
+  color:#20C20E;
   font-size: 4em;
   font-family: Franklin Gothic Medium;
   left: 0;
@@ -70,23 +70,44 @@ body{
   bottom: 45%;
 }
 
-.aboutme{
-  margin: 0%;
-  background-color: palegreen;
-  height: 856px;
-}
-
-.secondpart{
-  margin: 0%;
-  
-}
-
 
 /* -----------------------my profile photo *-----------------------*/
 
 .myprofile{
   height: 856px;
   width: 867px;
+  position: absolute;
+}
+
+.photo{
+  height: 856px;
+  width: 867px;
+  position: absolute;
 
 }
+
+.aboutme{
+  margin-top: 10px;
+  background-color: antiquewhite;
+  height: 856px;
+  width: 100%;
+  
+}
+
+.meText{
+  color: black;
+  font-size: 4em;
+  font-family: Franklin Gothic Medium;
+  position: absolute;
+  right: 40%;
+  margin: 0 auto;
+
+}
+
+
+.secondpart{
+  margin: 0%;
+  
+}
+
 
