@@ -28,6 +28,53 @@ body{
 }
 
 
+.navbar{
+  background-color: transparent;
+  height: 5vh;
+  width: 100%;
+  position: fixed;
+  border-bottom: 3px solid #04c2c9;
+ 
+    
+
+    
+}
+
+.home{
+  display: inline;
+  font-size: initial;
+  margin: 0 20px;
+  padding: 0;
+  cursor: pointer;
+    font-size: 12pt;
+    
+    
+    text-transform: uppercase;
+    transition: color 0.5s;
+}
+
+.whoami{
+  display: inline;
+  font-size: initial;
+  margin: 0 20px;
+  padding: initial;
+
+}
+
+.skill{
+  display: inline;
+  font-size: initial;
+  margin: 0 20px;
+  padding: initial;
+}
+
+.contact_me{
+  display: inline;
+    font-size: initial;
+    margin: 0 20px;
+    padding: initial;
+}
+
 
 
 /* ---- particles.js container ---- */
@@ -37,32 +84,31 @@ body{
 #particles-js{
   width: 100%;
   height: 100vh;
-  background-color: darkcyan;
+  background-color: #555555;
   background-image: url('');
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  position: relative;
+  
 }
 
 
 /*--------------------intro page------------------*/
 .intro_page p{
-  color:lavender;
+  color:white;
   font-size: 4em;
   font-family:'Merriweather', serif;
   left: 0;
   right: 0;
   margin: 0 auto;
-  max-width: 600px;
+  
   position: absolute;
-  bottom: 50%;
-  
-  
+  bottom: 50%;  
 }
 
+
 .para p{
-  color: white;
+  color: #04c2c9;
   font-size: 2em;
   font-family: Franklin Gothic Medium;
   left: 0;
@@ -72,7 +118,12 @@ body{
   position: absolute;
   bottom: 45%;
 }
-
+/*
+.para p:hover{
+  color: #04c2c9;
+  
+}
+*/
 
 /* -----------------------my profile photo *-----------------------*/
 
@@ -90,6 +141,33 @@ body{
   float: left;
 }
 
+/*
+.overlay {
+  
+  position: absolute;
+  height: 92%;
+  width: 45.5%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.contain:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+*/
 
 
 .whoiswala p{
@@ -104,6 +182,8 @@ body{
 
 }
 
+
+
 .myinfo p{
   color:green;
   background-color: antiquewhite;
@@ -115,10 +195,22 @@ body{
   
   margin:0 auto;
   text-align: center;
-
+  
+  
   width: 40%;
   
   
+}
+
+
+
+
+
+.skills{
+  margin-top: 10px;
+  background-color: blue;
+  height:100vh;
+  width: 100%;
 }
 
 
